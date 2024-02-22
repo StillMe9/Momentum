@@ -180,3 +180,9 @@ body {
     border-radius: 20px;
     text-shadow: none;
 }
+
+@media screen and (max-height: 760px) {
+    #quote {
+        display: none;
+    }
+}
